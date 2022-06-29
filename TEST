@@ -1,0 +1,21 @@
+.card:hover:before{
+content : '';
+position : absolute;
+top : -9px;
+width: 320px;
+height : 391px;
+background : black;
+z-index: 40;
+opacity:0.7;
+ border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    left :-5px;
+       transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+}
